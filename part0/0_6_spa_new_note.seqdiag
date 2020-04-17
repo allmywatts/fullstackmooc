@@ -1,0 +1,5 @@
+title: Spa new note
+
+note over browser: Upon clicking save, event handler redraws notes
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server-->browser: Result as json
